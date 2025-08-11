@@ -1,0 +1,218 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.SpookyDooky"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="35" />
+10-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-67
+19-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+20-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-76
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-71
+21-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-68
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-80
+22-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-77
+23    <uses-permission android:name="android.permission.BLUETOOTH" />
+23-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:5-68
+23-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:22-65
+24
+25    <uses-feature android:glEsVersion="0x00030000" />
+25-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:5-54
+25-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:19-51
+26    <uses-feature
+26-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:5-18:36
+27        android:name="android.hardware.vulkan.version"
+27-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:9-55
+28        android:required="false" />
+28-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-33
+29    <uses-feature
+29-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:19:5-21:36
+30        android:name="android.hardware.microphone"
+30-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:20:9-51
+31        android:required="false" />
+31-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-33
+32    <uses-feature
+32-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:22:5-24:36
+33        android:name="android.hardware.touchscreen"
+33-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:23:9-52
+34        android:required="false" />
+34-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:24:9-33
+35    <uses-feature
+35-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:25:5-27:36
+36        android:name="android.hardware.touchscreen.multitouch"
+36-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-63
+37        android:required="false" />
+37-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:27:9-33
+38    <uses-feature
+38-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:28:5-30:36
+39        android:name="android.hardware.touchscreen.multitouch.distinct"
+39-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-72
+40        android:required="false" />
+40-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:30:9-33
+41    <uses-feature
+41-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:31:5-34:31
+42        android:name="android.hardware.vr.headtracking"
+42-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:32:9-56
+43        android:required="true"
+43-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:33:9-32
+44        android:version="1" />
+44-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-28
+45
+46    <application
+46-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+47        android:debuggable="true"
+48        android:enableOnBackInvokedCallback="true"
+48-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:37:9-51
+49        android:extractNativeLibs="true"
+49-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:38:9-41
+50        android:icon="@mipmap/app_icon"
+50-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+51        android:label="@string/app_name" >
+51-->C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+52        <meta-data
+52-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:39:9-41:33
+53            android:name="unity.splash-mode"
+53-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:40:13-45
+54            android:value="0" />
+54-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-30
+55        <meta-data
+55-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:42:9-44:36
+56            android:name="unity.splash-enable"
+56-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-47
+57            android:value="True" />
+57-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-33
+58        <meta-data
+58-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+59            android:name="unity.launch-fullscreen"
+59-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-51
+60            android:value="True" />
+60-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+61        <meta-data
+61-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:48:9-50:36
+62            android:name="unity.render-outside-safearea"
+62-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:49:13-57
+63            android:value="True" />
+63-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:50:13-33
+64        <meta-data
+64-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:51:9-53:50
+65            android:name="notch.config"
+65-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:52:13-40
+66            android:value="portrait|landscape" />
+66-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:53:13-47
+67        <meta-data
+67-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:54:9-56:36
+68            android:name="unity.auto-report-fully-drawn"
+68-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:55:13-57
+69            android:value="true" />
+69-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:56:13-33
+70
+71        <activity
+71-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:58:9-84:20
+72            android:name="com.unity3d.player.UnityPlayerActivity"
+72-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:59:13-66
+73            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode"
+73-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:60:13-114
+74            android:exported="true"
+74-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:61:13-36
+75            android:hardwareAccelerated="false"
+75-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:62:13-48
+76            android:launchMode="singleTask"
+76-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:63:13-44
+77            android:resizeableActivity="false"
+77-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:64:13-47
+78            android:screenOrientation="landscape"
+78-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:65:13-50
+79            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+79-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:66:13-77
+80            <intent-filter>
+80-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:67:13-73:29
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:17-77
+81-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:68:27-74
+82
+83                <action android:name="android.intent.action.MAIN" />
+83-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:17-69
+83-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:70:25-66
+84
+85                <category android:name="com.oculus.intent.category.VR" />
+85-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:17-74
+85-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:72:27-71
+86            </intent-filter>
+87
+88            <meta-data
+88-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:75:13-77:40
+89                android:name="unityplayer.UnityActivity"
+89-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:76:17-57
+90                android:value="true" />
+90-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:77:17-37
+91            <meta-data
+91-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:78:13-80:40
+92                android:name="notch_support"
+92-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:79:17-45
+93                android:value="true" />
+93-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:80:17-37
+94            <meta-data
+94-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:81:13-83:40
+95                android:name="com.oculus.vr.focusaware"
+95-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:82:17-56
+96                android:value="true" />
+96-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:83:17-37
+97        </activity>
+98
+99        <meta-data
+99-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:86:9-88:39
+100            android:name="com.samsung.android.vr.application.mode"
+100-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:87:13-67
+101            android:value="vr_only" />
+101-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:88:13-36
+102        <meta-data
+102-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:89:9-91:36
+103            android:name="com.unity.xr.oculus.LowOverheadMode"
+103-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:90:13-63
+104            android:value="true" />
+104-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:91:13-33
+105        <meta-data
+105-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:92:9-94:37
+106            android:name="com.unity.xr.oculus.LateLatching"
+106-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:93:13-60
+107            android:value="false" />
+107-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:94:13-34
+108        <meta-data
+108-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:95:9-97:37
+109            android:name="com.unity.xr.oculus.LateLatchingDebug"
+109-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:96:13-65
+110            android:value="false" />
+110-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:97:13-34
+111        <meta-data
+111-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:98:9-100:61
+112            android:name="com.oculus.supportedDevices"
+112-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:99:13-55
+113            android:value="quest2|cambria|eureka|quest3s" />
+113-->[:unityLibrary] C:\Users\jasej\Spooky Dooky\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\merged_manifest\debug\AndroidManifest.xml:100:13-58
+114    </application>
+115
+116</manifest>

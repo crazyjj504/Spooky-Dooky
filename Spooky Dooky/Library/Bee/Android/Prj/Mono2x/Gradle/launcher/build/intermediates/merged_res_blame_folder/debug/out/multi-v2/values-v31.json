@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.DefaultCompany.SpookyDooky.launcher-mergeDebugResources-4:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jasej\\Spooky Dooky\\Library\\Bee\\Android\\Prj\\Mono2x\\Gradle\\unityLibrary\\build\\intermediates\\packaged_res\\debug\\values-v31\\values-v31.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "7",
+                        "endColumns": "10",
+                        "endOffsets": "539"
+                    }
+                }
+            ]
+        }
+    ]
+}
